@@ -2,3 +2,6 @@
   link: /
 - name: About
   link: /about.htm
+- name: Blog
+  link: /blog.htm
+  type: disabled
