@@ -1,7 +1,19 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.htm
-- name: Blog
-  link: /blog.htm
-  type: disabled
+- title: Home
+  url: /
+- title: About
+  url: /about.htm
+- title: Contact
+  url: /contact.htm
+  disabled: true
+- title: Blog
+  url: /blog.htm
+  disabled: true
+- title: Portfolio
+  url: /portfolio.htm
+  sublinks:
+    - title: Previous Experience
+      url: /work_experience.htm
+    - title: Personal Projects
+      url: /projects.htm
+    - title: Team Projects
+      url: /collaborations.htm

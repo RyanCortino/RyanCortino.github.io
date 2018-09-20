@@ -1,8 +1,54 @@
-        <nav class="nav">
-            <ul class="nav nav-pills"> 
-                {% for item in site.data.navigation %}
-                <a href="{{ item.link }}"{% if page.url == item.link %} class="nav-link active"{% elsif item.type == "disabled" %} class="nav-link disabled"{% else %} class="nav-link"{% endif %}>
-                    {{ item.name }}
-                </a>{% endfor %}
-            </ul>
-        </nav>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">RyanCortino.github.io</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            {% assign links = site.data.navigation %}
+            {% for link in links %}  
+                {% capture hrefValue %}{{ site.baseurl }}{{ link.url }}{% endcapture %}
+                {% assign isActive = nil %}
+                {% assign isDisabled = nil %}
+                            
+                {% if page.url == link.url %}
+                    {% assign isActive = ' active' %}
+                {% endif %}
+                {% if link.disabled %}
+                    {% assign isDisabled = ' disabled' %}
+                {% endif %}
+
+                {% if link.sublinks %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="{{ hrefValue }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ link.title }}<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            {% for sublink in link.sublinks %}                        
+                                {% if sublink.title == 'seperator' %}
+                                    <li class="divider" role="separator"></li>
+                                {% else %}
+                                    {% capture hrefValue %}{{ site.baseurl }}{{ sublink.url }}{% endcapture %}
+                                    <li>
+                                        <a class="dropdown-item" href="{{ hrefValue }}">{{ sublink.title }}</a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% else %}
+                    {% if isDisabled %}
+                        {% assign hrefValue='#' %}
+                    {% endif %}
+                    <li class="nav-item{{ isActive }}{{ isDisabled }}">
+                        <a class="nav-link{{ isDisabled }}" href="{{ hrefValue }}">{{ link.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search">
+        </form>
+    </div>    
+</nav>
