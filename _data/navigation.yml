@@ -4,7 +4,6 @@
   url: /about.htm
 - title: Contact
   url: /contact.htm
-  disabled: true
 - title: Blog
   url: /blog.htm
   disabled: true
