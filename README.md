@@ -1,8 +1,9 @@
-# RyanCortino.github.io
+RyanCortino.github.io
+======
 
-Source code for my personal developer profile hosted on Github Pages. I will use this website to showcase my experiences and skillsets related to software and game development. It is made using a combination of Ruby, Jekyll, HTML, and CSS.
+__To visit the frontend for this project, click here: https://ryancortino.github.io/__
 
-To visit the frontend for this project, click here: https://ryancortino.github.io/
----
+## Focus:
+The focus of this project is to provide a collection of my personal work experiences and to serve as a portfolio for the projects that I contribute to. 
 
-This is my first time working specifically with Ruby and Jekyll, so this project will also act as a tutorial of sorts. I have experience working both with frontends and backends (specifically Joomla), which I expect to come in very handy. 
+Lorem ipsum..
