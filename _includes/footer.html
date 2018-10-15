@@ -1,79 +1,79 @@
-<!-- Start Footer -->
-<!--<footer class="page-footer fixed-bottom font-small bg-info text-white pt-4">-->
-<footer class="font-small bg-info text-white pt-4">
-
-    <!-- Footer Links -->
-    <div class="container">
-        
-        <!-- Start Grid Row-->
-        <div class="row">
-            
-            <!-- Start Grid Column -->
-            <div class="col-md-5 mt-md-0 mt-3">
-                
-                <!-- Content -->
-                <h5 class="text-uppercase font-weight-bold">Footer Content</h5>
-                <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            
-            </div>                        
-            <!-- End Grid Column -->
-
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-            <!-- Start Grid Column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-
-                <!-- Footer Sitemap -->
-                <h5 class="text-uppercase font-weight-bold">Links</h5>
-                <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
-                <ul class="list-unstyled quick-links">
-                    <li>
-                        <a href="#!" class="text-light"><i class="fa fa-angle-double-right"></i>Home</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-light"><i class="fa fa-angle-double-right"></i>About</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-light"><i class="fa fa-angle-double-right"></i>Blog</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-light"><i class="fa fa-angle-double-right"></i>Portfolio</a>
-                    </li>
-                </ul>
+<!-- Footer -->
+<footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>{{ site.address_street }}
+                            <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            {% if site.facebook_username %}
+                            <li>
+                                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.twitter_username %}
+                            <li>
+                                <a href="https://twitter.com/{{ site.twitter_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.github_username %}
+                            <li>
+                                <a href="https://github.com/{{ site.github_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.instagram_username %}
+                            <li>
+                                <a href="https://www.instagram.com/{{ site.instagram_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.stackoverflow_url %}
+                            <li>
+                                <a href="{{ site.stackoverflow_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.googleplus_username %}
+                            <li>
+                                <a href="https://plus.google.com/+{{ site.googleplus_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.skype_username %}
+                            <li>
+                                <a href="skype:{{ site.skype_username }}?call" class="btn-social btn-outline"><i class="fa fa-fw fa-skype"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.linkedin_url %}
+                            <li>
+                                <a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About {{ site.title }}</h3>
+                        <p><a href="http://startbootstrap.com">Start Bootstrap</a> is an open source library of Bootstrap themes and templates.</p>
+                    </div>
+                </div>
             </div>
-            <!-- End Grid Column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 no-wrap">
-                
-                <h5 class="text-uppercase font-weight-bold">Contact</h5>
-                <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                    <i class="fa fa-envelope mr-3"></i> RyanCortino@gmail.com
-                </p>
-                <p>
-                    <i class="fa fa-phone mr-3"></i> + 01 312 884 9859
-                </p>
-                <p>
-                    <i class="fab fa-linkedin-in mr-3"></i> 
-                    <a class="text-light" href="https://www.linkedin.com/in/ryan-cortino/">Linkedin Profile</a>
-                </p>
-        
-            </div>
-            <!-- Grid column -->
-    
         </div>
-        <!-- End Grid Row-->
-
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website {{ site.time | date: "%Y" }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
-
-    <!-- Start Copyright -->
-    <div class="footer-copyright text-center py-3 bg-secondary text-dark">
-        The contents of this website are &copy;&nbsp;2018 under the terms of the <a class="text-dark"  href="https://github.com/RyanCortino/RyanCortino.github.io/blob/master/LICENSE">MIT&nbsp;License</a>.
-    </div>
-    <!-- End Copyright -->
-
-</footer>
-<!-- End Footer -->
+    
