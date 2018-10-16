@@ -3,8 +3,8 @@ title: Ryan Cortino
 email: RyanCortino@gmail.com
 url: https://ryancortino.github.io/
 description: "Passionate software engineer and hobbyist game developer with over 10 years of experience."
-keywords: "Ryan Cortino, Software Engineer, Full-Stack Developer, Front-End, Database, Back-End"
-skills: "Web Developer | Full-Stack Software Engineer | Game Developer"
+keywords: "Ryan Cortino, Software Engineer, Full-Stack Developer, Front-End, Database, Back-End, Game Design, Game Dev"
+skills: "Web Developer | Full-Stack Software Engineer | Game-Systems Designer"
 meta_author: Cortino Ryan
 
 # Google webmaster tools
@@ -23,10 +23,8 @@ color:
   brand-primary: 18bc9c #rgb(24,188,156)
   brand-primary-dark: 0E705D #rgb(14,112,93)  
   brand-primary-rgb: "24,188,156" #18bc9c
-
   brand-secondary: 461955 #rgb(70,25,85)
-  brand-secondary-dark: 2A0F33 #rgb(42,15,51)  
-
+  brand-secondary-dark: 2A0F33 #rgb(42,15,51)
   brand-success: 18bc9c #rgb(24,188,156)
   brand-info: bc7f6f #rgb(188,127,111)
   brand-warning: bca918 #rgb(188,169,24)
@@ -41,16 +39,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/ryan-cortino/
-  - title: github
-    url: https://github.com/RyanCortino
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/ryan-cortino
+  linkedin-url: https://www.linkedin.com/in/ryan-cortino/
+  github-url: https://github.com/RyanCortino
+  stackoverflow-url: https://stackoverflow.com/users/2811385/ryan-cortino
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Dundee, OR 97115
+address: "Dundee, OR 97115"
 
 # Build settings
 markdown: kramdown

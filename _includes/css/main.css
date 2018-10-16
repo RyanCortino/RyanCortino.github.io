@@ -352,6 +352,11 @@ footer .footer-below {
     background-color: #{{ site.color.brand-secondary-dark }};
 }
 
+footer .text-copyright {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
