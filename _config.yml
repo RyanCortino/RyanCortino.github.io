@@ -1,0 +1,50 @@
+# Site settings
+title: Ryan Cortino
+email: RyanCortino@gmail.com
+url: https://ryancortino.github.io/
+description: "Passionate software engineer and hobbyist game developer with over 10 years of experience."
+keywords: "Ryan Cortino, Software Engineer, Full-Stack Developer, Front-End Developer, Database Developer"
+skills: "Full-Stack Software Engineer - Game Developer"
+meta_author: Cortino Ryan
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Ryan Cortino
+  location: Dundee, Oregon
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/ryan-cortino/
+  - title: github
+    url: https://github.com/RyanCortino
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/ryan-cortino
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Dundee, OR 97115
+
+# Build settings
+markdown: kramdown
+permalink: pretty
