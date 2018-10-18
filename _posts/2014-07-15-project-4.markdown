@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: game.png
+alt: image-alt
+project-date: April 2014
+client: Placeholder
+category: Web Development
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, lectus in tempus pellentesque, arcu magna ullamcorper mauris, vel facilisis nulla enim maximus est. Morbi fringilla ligula nec laoreet pharetra. Quisque consectetur ullamcorper nisl. Sed sed posuere arcu.
+
+---
