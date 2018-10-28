@@ -19,12 +19,13 @@ bing_verify:
 contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
-color:
+color:  
   brand-primary: 18bc9c #rgb(24,188,156)
   brand-primary-dark: 0E705D #rgb(14,112,93)  
   brand-primary-rgb: "24,188,156" #18bc9c
+  
   brand-secondary: 461955 #rgb(70,25,85)
-  brand-secondary-dark: 2A0F33 #rgb(42,15,51)
+  brand-secondary-dark: 361341 #rgb(54,19,65)
   brand-success: 18bc9c #rgb(24,188,156)
   brand-info: bc7f6f #rgb(188,127,111)
   brand-warning: bca918 #rgb(188,169,24)
@@ -33,9 +34,6 @@ color:
 # Footer settings
 footer:
   copyright: Ryan Cortino
-  location: "Dundee, Oregon"
-  social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -44,7 +42,7 @@ social:
   stackoverflow-url: https://stackoverflow.com/users/2811385/ryan-cortino
 
 # Postal address (add as many lines as necessary)
-address: "Dundee, OR 97115"
+address: "Dundee, Oregon 97115"
 
 # Build settings
 markdown: kramdown
