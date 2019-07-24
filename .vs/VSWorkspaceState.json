@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_data",
+    "\\assets",
+    "\\assets\\file",
     "\\_includes",
+    "\\_includes\\resume",
     "\\_layouts",
     "\\_plugins"
   ],
-  "SelectedNode": "\\_data\\navigation.yml",
+  "SelectedNode": "\\assets\\file\\Ryan_Cortino-Resume.pdf",
   "PreviewInSolutionExplorer": false
 }
