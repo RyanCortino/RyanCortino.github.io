@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+{% include head.html %}
+<body>
 
-    {% include portfolio/head.html %}
-
-    <body id="page-top" class="index">
-
-        {% include portfolio/navbar.html %}
-
-        {% include portfolio/header.html %}
-
-        {% include portfolio/portfolio.html %}
-
-        {% include portfolio/about.html %}
-
-        {% include portfolio/contact.html %}
-
-        {% include portfolio/footer.html %}
-
-        {% include portfolio/modals.html %}
-
-        {% include portfolio/javascript.html %}
-
-    </body>
-
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
+</body>
 </html>
