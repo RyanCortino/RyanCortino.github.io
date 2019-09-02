@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Turret Defense Project
-date:
-description: A Turret Defense game designed in Unity3D as a continuation of an online course.
+title: Refactoring A Tower Defense Codebase
+description: Follow along as I take an existing codebase from an online course that I completed back when I first started learning game development.
 img: Placeholder-1280x848.png
 fig-caption:
 tags: [Lorem, Ipsum]
