@@ -5,6 +5,7 @@ description: Follow along as I take an existing codebase from an online course t
 img: Placeholder-1280x848.png
 fig-caption:
 tags: [Lorem, Ipsum]
+published: false
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque dolor nec purus tempus, ut varius metus lacinia. Donec dignissim orci id vestibulum dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin quis tempor leo, quis bibendum urna. Duis ac imperdiet dolor, nec varius nulla. Cras ullamcorper metus dolor. Donec magna diam, maximus id magna ut, porttitor commodo nibh. Sed ante lacus, volutpat placerat mi eget, tincidunt viverra dolor. Aenean sit amet lobortis odio. Vestibulum risus velit, molestie eget dictum in, suscipit at tellus. Pellentesque euismod purus sit amet magna vulputate eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
