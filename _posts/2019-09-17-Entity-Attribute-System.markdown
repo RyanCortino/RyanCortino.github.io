@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Random Number Generatoration
-description: An analysis of the random number generation process in C# and how I implemented best practices into my own programs.
+title: Entity Attribute System
+description: A simple class library designed to handle player or entity attributes.
 img: Placeholder-1280x848.png
 fig-caption:
-tags: [Lorem, Ipsum]
-published: true
+tags: [Attribute, Unity3D, Unity, RPG, Stats]
+published: false
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque dolor nec purus tempus, ut varius metus lacinia. Donec dignissim orci id vestibulum dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin quis tempor leo, quis bibendum urna. Duis ac imperdiet dolor, nec varius nulla. Cras ullamcorper metus dolor. Donec magna diam, maximus id magna ut, porttitor commodo nibh. Sed ante lacus, volutpat placerat mi eget, tincidunt viverra dolor. Aenean sit amet lobortis odio. Vestibulum risus velit, molestie eget dictum in, suscipit at tellus. Pellentesque euismod purus sit amet magna vulputate eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-## Step 1: Outline the scope of responsibilities for the library.
-Random vs. Psuedo-Random. UML Diagram. Parameters and Algorythms 
-
-## In eu sapien convallis, scelerisque mauris sed, pellentesque sapien.
+## The Base Attribute Class
 Proin porta aliquet rhoncus. Nullam vestibulum lectus purus, a semper est venenatis ac. Quisque sed iaculis felis, at blandit tellus. Vestibulum tempus libero eu hendrerit hendrerit. Quisque elit turpis, ultricies ac massa id, pellentesque iaculis ipsum. Nunc tempor lacus non consequat consequat. Mauris at viverra arcu. Etiam porta aliquet semper. Cras sollicitudin est nulla, sit amet tempor velit vehicula ac. Pellentesque libero quam, aliquam et risus sed, pellentesque fringilla ligula. Praesent laoreet nisl ante, et cursus justo tristique ut. Mauris at finibus ipsum. Praesent eleifend magna quis velit vehicula, sit amet rhoncus diam efficitur.
 
 ![Me and My friends]({{site.baseurl}}/assets/img/Placeholder-1280x848.png)
+
 
 Suspendisse a neque enim. Vestibulum rhoncus placerat dolor, in iaculis lacus venenatis nec. Nullam interdum vitae sem quis rutrum. Cras suscipit turpis ut iaculis iaculis. Cras finibus elit eu dolor iaculis, non sodales lectus porta. Morbi vehicula ut lectus vitae tincidunt. Aenean pellentesque pretium est, sit amet blandit enim faucibus et. Nulla facilisi. Vestibulum velit purus, condimentum vitae volutpat a, lacinia in ex. Donec maximus auctor nibh, id tincidunt sem commodo ut. Cras rhoncus est sit amet turpis pellentesque venenatis. Morbi a aliquam sapien, quis consectetur est. Ut commodo felis ipsum, at suscipit urna laoreet imperdiet. Nam sit amet malesuada nunc, ac facilisis arcu. Donec ut odio tempus turpis congue mollis.
 

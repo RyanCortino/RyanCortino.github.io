@@ -3,30 +3,38 @@ layout: default
 ---
 
 <aside class="sidebar">
-  <header>
-      <div class="about">
-          <div class="cover-author-image">
-              <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
-          </div>
-          <div class="author-name">{{site.author}}</div>
-          <p>{{site.about-author}}</p>
-      </div>
-  </header> <!-- End Header -->
+    <header>
+        <div class="about">
+            <div class="cover-author-image">
+                <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+            </div>
+            <div class="author-name">{{site.author}}</div>
+            <p>{{site.about-author}}</p>
+        </div>
+        <section class="quicklinks">
+         <h3 class="quicklinks-title">Quicklinks</h3>
+            <ul>
+                {% if site.quicklink-resume %}
+                <li class="resume"><a href="\assets\files\{{ site.quicklink-resume }}"><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ site.quicklink-resume-title }}</a></li>
+                {% endif %}
+                {% if site.quicklink-cv %}
+                <li class="resume"><a href="\assets\files\{{ site.quicklink-cv }}"><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ site.quicklink-cv-title }}</a></li>
+                {% endif %}
+            </ul>
+        </section>
+    </header> <!-- End Header -->
 
   <footer>
+
       <section class="contact">
           <h3 class="contact-title">Contact me</h3>
           <ul>
-              <!--{% if site.social-twitter %}
-    <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    {% else %}
-    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if site.social-facebook %}
-    <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    {% else %}
-    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    {% endif %}-->
+              {% if site.social-twitter %}
+              <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              {% endif %}
+              {% if site.social-facebook %}
+              <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              {% endif %}
               {% if site.social-linkedin %}
               <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
               {% else %}
@@ -42,7 +50,6 @@ layout: default
               {% else %}
               <li class="email"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
               {% endif %}
-              <li class="resume"><a href="\assets\files\Ryan_Cortino-Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
           </ul>
       </section> <!-- End Section Contact -->
       <div class="copyright">
@@ -51,5 +58,5 @@ layout: default
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
-  {{ content }}
+  {{ content }} 
 </div>

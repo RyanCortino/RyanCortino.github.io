@@ -2,11 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\img",
+    "\\assets\\css",
+    "\\assets\\css\\scss",
+    "\\assets\\css\\scss\\parts",
+    "\\assets\\files",
     "\\_includes",
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_posts\\2019-07-26-Turret-Defense-Project.markdown",
+  "SelectedNode": "\\assets\\css\\main.css",
   "PreviewInSolutionExplorer": false
 }
