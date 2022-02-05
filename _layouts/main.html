@@ -14,12 +14,9 @@ layout: default
         <section class="quicklinks">
          <h3 class="quicklinks-title">Quicklinks</h3>
             <ul>
-                {% if site.quicklink-resume %}
-                <li class="resume"><a href="\assets\files\{{ site.quicklink-resume }}"><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ site.quicklink-resume-title }}</a></li>
-                {% endif %}
-                {% if site.quicklink-cv %}
-                <li class="resume"><a href="\assets\files\{{ site.quicklink-cv }}"><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ site.quicklink-cv-title }}</a></li>
-                {% endif %}
+                {% for link in site.data.quicklinks %}
+                <li><a href="\assets\files\{{ link.reference }}"><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ link.label }}</a></li>
+                {% endfor %}
             </ul>
         </section>
     </header> <!-- End Header -->
